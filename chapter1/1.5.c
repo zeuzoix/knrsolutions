@@ -1,5 +1,5 @@
-/* Exercise 1-3. Modify the temperature conversion program to print a heading
- * above the table. */
+/* Exercise 1-5. Modify the temperature conversion program to print the table in
+ * reverse order, that is, from 300 degrees to O */
 
 #include <stdio.h>
 
