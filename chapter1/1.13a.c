@@ -36,7 +36,7 @@ main()
 	}
 
 	for (i = 0; i < MAX_WORD_LENGTH; ++i) {
-		printf("%d ", i);
+		printf("%02d ", i);
 		for (j = 0; j < word_length[i]; ++j)
 			printf("*");
 		printf("\n");
