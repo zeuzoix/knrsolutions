@@ -21,9 +21,9 @@ main ()
 int getline_x(char line[], int maxline)
 {
 	int i = 0;
-	char c;
+	int c;
 
-	for (i = 0; i < maxline - 1 && ((c = getchar()) != 0) && c != '\n'; ++i)
+	for (i = 0; i < maxline - 1 && ((c = getchar()) != EOF) && c != '\n'; ++i)
 		line[i] = c;
 
 	if ('\n' == c)

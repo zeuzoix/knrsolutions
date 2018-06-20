@@ -27,9 +27,8 @@ int getline_x(char line[], int maxline)
 {
 	int i, c;
 
-	for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i) {
+	for (i = 0; i < maxline - 1 && (c = getchar()) != EOF && c != '\n'; ++i)
 		line[i] = c;
-	}
 
 	if ('\n' == c) 
 		line[i++] = c;
