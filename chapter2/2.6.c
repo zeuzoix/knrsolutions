@@ -24,7 +24,7 @@ int getline_1(char line[], int limit)
 
 unsigned getbits(unsigned x, int p, int n)
 {
-	return (x >> (p + 1 -n)) & ~(~0 << n);
+	return (x >> (p + 1 - n)) & ~(~0 << n);
 }
 
 unsigned setbits(unsigned x, int p, int n, unsigned y)
